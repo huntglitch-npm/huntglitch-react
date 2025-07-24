@@ -15,6 +15,11 @@
   "dependencies": {
     "axios": "^1.6.7"
   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huntglitch-npm/huntglitch-react.git"
+  },
+  "homepage": "https://github.com/huntglitch-npm/huntglitch-react#readme",
   "devDependencies": {
     "typescript": "^5.4.0",
     "@types/node": "^20.6.0"
