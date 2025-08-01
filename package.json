@@ -4,24 +4,34 @@
   "description": "A lightweight utility for sending error logs to HuntGlitch — supports both JS and TS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "lint": "eslint .",
+    "prepublishOnly": "npm run lint && npm run build"
   },
-  "keywords": ["huntglitch", "logger", "typescript", "error-logging", "react"],
+  "keywords": [
+    "huntglitch",
+    "logger",
+    "typescript",
+    "error-logging",
+    "react"
+  ],
   "author": "Your Name",
   "license": "MIT",
-  "type": "commonjs",
   "dependencies": {
-    "axios": "^1.6.7"
+    "axios": "^1.11.0"
   },
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/huntglitch-npm/huntglitch-react.git"
   },
   "homepage": "https://github.com/huntglitch-npm/huntglitch-react#readme",
   "devDependencies": {
-    "typescript": "^5.4.0",
-    "@types/node": "^20.6.0"
+    "@eslint/js": "^9.32.0",
+    "@types/node": "^24.1.0",
+    "eslint": "^9.32.0",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.38.0"
   }
 }
