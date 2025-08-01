@@ -1,6 +1,6 @@
 {
   "name": "react-huntglitch",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A lightweight utility for sending error logs to HuntGlitch — supports both JS and TS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
